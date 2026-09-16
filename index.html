@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TERRAVIAJUTE — premium handcrafted jute products from Bangladesh for the world.">
+  <title>TERRAVIAJUTE | Natural Jute, Global Living</title>
+  <style>
+    :root{
+      --ink:#17352a; --earth:#7b5a3c; --sand:#f4eee4; --cream:#fbf8f1;
+      --leaf:#315b45; --gold:#b28a4b; --white:#fff;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1160px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(251,248,241,.95);backdrop-filter:blur(12px);border-bottom:1px solid #e8dfd1}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-weight:900;letter-spacing:2px;font-size:21px}
+    .logo span{color:var(--gold)}
+    .navlinks{display:flex;gap:28px;font-size:14px;font-weight:700}
+    .navlinks a:hover{color:var(--gold)}
+    .btn{display:inline-block;background:var(--ink);color:#fff;padding:13px 22px;border-radius:30px;font-weight:700;font-size:14px}
+    .btn:hover{background:var(--leaf)}
+    .hero{min-height:690px;display:grid;place-items:center;position:relative;overflow:hidden;background:
+      radial-gradient(circle at 78% 28%,#d9c29c 0,transparent 28%),
+      linear-gradient(120deg,#17352a 0%,#28543e 52%,#8a6948 100%);color:#fff}
+    .hero:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 12px,rgba(255,255,255,.035) 13px 15px)}
+    .hero-content{position:relative;z-index:1;padding:80px 0;max-width:760px}
+    .eyebrow{text-transform:uppercase;letter-spacing:4px;font-size:12px;font-weight:800;color:#e6d0a7;margin-bottom:18px}
+    h1{font-size:clamp(52px,9vw,100px);line-height:.92;letter-spacing:-4px;margin-bottom:24px}
+    .hero p{font-size:19px;max-width:610px;color:#eef2ed;margin-bottom:32px}
+    .hero .btn{background:#fff;color:var(--ink);margin-right:10px}
+    .hero .btn.alt{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.55)}
+    section{padding:92px 0}
+    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:40px}
+    .section-head h2{font-size:42px;line-height:1.05}
+    .section-head p{max-width:500px;color:#6b6c64}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .card{background:#fff;border:1px solid #e9e1d5;border-radius:20px;overflow:hidden;box-shadow:0 10px 35px rgba(35,44,35,.06)}
+    .product-img{height:260px;display:grid;place-items:center;font-size:70px;background:linear-gradient(145deg,#e7d6b8,#a98762)}
+    .card-body{padding:24px}
+    .tag{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--gold);font-weight:800}
+    .card h3{font-size:22px;margin:8px 0}
+    .card p{color:#707168;font-size:14px}
+    .story{background:var(--sand)}
+    .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .story-visual{min-height:430px;border-radius:28px;background:
+      radial-gradient(circle at 35% 30%,#d7bd92 0 11%,transparent 12%),
+      repeating-linear-gradient(30deg,#876646 0 5px,#9c7b58 6px 10px);
+      box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+    .story h2{font-size:48px;line-height:1.05;margin:12px 0 20px}
+    .story p{color:#62655c;margin-bottom:18px}
+    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .feature{padding:26px;background:#fff;border:1px solid #e9e1d5;border-radius:18px}
+    .feature b{display:block;margin-bottom:8px}
+    .feature span{font-size:13px;color:#73746d}
+    .cta{background:var(--ink);color:#fff;text-align:center}
+    .cta h2{font-size:48px;line-height:1.05;margin-bottom:15px}
+    .cta p{max-width:650px;margin:0 auto 28px;color:#dfe7e1}
+    footer{background:#10271f;color:#cbd7cf;padding:32px 0}
+    .footer-row{display:flex;justify-content:space-between;gap:20px;font-size:13px}
+    .social{display:flex;gap:18px}
+    @media(max-width:800px){
+      .navlinks{display:none}.hero{min-height:600px}.grid,.story-grid,.features{grid-template-columns:1fr}
+      .section-head{display:block}.section-head p{margin-top:15px}.story h2,.cta h2{font-size:38px}
+      .footer-row{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#">TERRAVIA<span>JUTE</span></a>
+      <div class="navlinks">
+        <a href="#products">Collections</a><a href="#story">Our Story</a><a href="#values">Why Jute</a><a href="#contact">Contact</a>
+      </div>
+      <a class="btn" href="#contact">Wholesale</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-content">
+    <div class="eyebrow">From Bangladesh • To the World</div>
+    <h1>Natural.<br>Beautiful.<br>Jute.</h1>
+    <p>Premium jute home décor, storage and lifestyle products — thoughtfully crafted in Bangladesh for modern homes around the world.</p>
+    <a class="btn" href="#products">Explore Collection</a>
+    <a class="btn alt" href="#contact">Become a Buyer</a>
+  </div>
+</section>
+
+<section id="products">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Collections</h2>
+      <p>Simple materials. Refined design. Export-ready craftsmanship for retailers, distributors and conscious consumers.</p>
+    </div>
+    <div class="grid">
+      <article class="card"><div class="product-img">🧺</div><div class="card-body"><span class="tag">Storage</span><h3>Jute Baskets</h3><p>Handcrafted baskets designed for stylish, practical everyday storage.</p></div></article>
+      <article class="card"><div class="product-img">🪴</div><div class="card-body"><span class="tag">Home Décor</span><h3>Plant & Pot Covers</h3><p>Natural textures that bring warmth and character to modern interiors.</p></div></article>
+      <article class="card"><div class="product-img">👜</div><div class="card-body"><span class="tag">Lifestyle</span><h3>Jute Bags</h3><p>Reusable, durable and beautifully finished bags made for daily life.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="story" class="story">
+  <div class="container story-grid">
+    <div class="story-visual"></div>
+    <div>
+      <div class="eyebrow" style="color:var(--gold)">Our Story</div>
+      <h2>Bangladesh's natural fiber, reimagined.</h2>
+      <p>TERRAVIAJUTE connects Bangladesh's rich jute heritage with contemporary global design. We work with skilled makers and suppliers to bring versatile jute products to international markets.</p>
+      <p>Our focus is quality, useful design, responsible materials and reliable export partnerships.</p>
+      <a class="btn" href="#contact">Talk to Us</a>
+    </div>
+  </div>
+</section>
+
+<section id="values">
+  <div class="container">
+    <div class="section-head">
+      <h2>Why TERRAVIAJUTE?</h2>
+      <p>A brand built around the strengths of jute and the needs of international buyers.</p>
+    </div>
+    <div class="features">
+      <div class="feature"><b>Natural Fiber</b><span>Jute is a versatile plant-based fiber with a distinctive natural look.</span></div>
+      <div class="feature"><b>Bangladesh Made</b><span>Connected to one of the world's leading jute-producing regions.</span></div>
+      <div class="feature"><b>Custom Orders</b><span>Packaging, sizes, colors and designs can be developed for buyers.</span></div>
+      <div class="feature"><b>Global Supply</b><span>Built for wholesale, retail and international sourcing partnerships.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <div class="container">
+    <h2>Let’s build something natural.</h2>
+    <p>Looking for a Bangladesh jute supplier, private-label partner or wholesale collection? Tell us what you need.</p>
+    <a class="btn" style="background:#fff;color:var(--ink)" href="mailto:hello@terraviajute.com">hello@terraviajute.com</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div>© 2026 TERRAVIAJUTE. All rights reserved.</div>
+    <div class="social"><span>Bangladesh</span><span>•</span><span>Global Jute & Home</span></div>
+  </div>
+</footer>
+</body>
+</html>
